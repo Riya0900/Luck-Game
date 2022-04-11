@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: #000000;
+  min-height:100vh ;
+}
+
+.App-logo {
+  height: 30vmin;
+  margin-top: 13px;
+  border: 2px solid lawngreen;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.heading {
+  color: greenyellow;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.des{
+  font-size: 30px;
+  color: white;
+  font-family: cursive;
+  margin-bottom: 0px;
+  margin-top: 21px;
+}
+
+.tar{
+  font-size: 35px;
+  color: rgb(255, 145, 0);
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+}
+
+.buttons{
+  min-height: 35vh;
+  display: -webkit-box;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: right;
+  padding-left: 600px;
+  margin-top: 2px;
+  margin-bottom: -30px;
+}
+
+.btn{
+  border: 5px solid lawngreen;
+  margin: 18px;
+  font-size: 30px;
+}
+
+.output{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #000000;
+  font-size: 80px;
+  color: white;
+  animation: glow 2s ease-in-out infinite alternate;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btnref{
+  border: 7px solid lawngreen;
+  margin-bottom: 28px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.btnlink{
+  color:black;
+  text-decoration: none;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(47, 240, 224), 0 0 20px rgb(7, 232, 248), 0 0 30px #436ad3, 0 0 10px #4c55d1, 0 0 30px #2a499c, 0 0 30px #5046db, 0 0 40px #388994;
+  }
+  to {
+    text-shadow: 0 0 5px rgb(103, 9, 255), 0 0 10px #0c326b, 0 0 10px #1534bd, 0 0 10px #1c7d8a, 0 0 20px #3904f8, 0 0 20px #053286, 0 0 20px #26dfe6;
+  }
+}
